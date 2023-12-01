@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>循环弹窗示例</title>
+    <script type="text/javascript">
+        function showPopup() {
+            // 循环弹窗
+            while(true) {
+                var userResponse = confirm("这两天如果吃过小龙坎的请点确定，没吃过请点取消");
+                // 可以在这里添加处理用户响应的代码
+                // 例如，如果用户点击确定，执行某些操作
+            }
+        }
+    </script>
+</head>
+<body onload="showPopup();">
+    <h1>循环弹窗网页</h1>
+</body>
+</html>
